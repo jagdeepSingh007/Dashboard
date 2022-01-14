@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+body{
+  font-family: 'Libre Baskerville', serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,a,ul,li{
+  margin: 0%;
+  padding: 0%;
+}
+.inp{
+  padding: 3px;
+  margin-top: 8px;
+  border-radius: 5%;
+  background-color: whitesmoke ;
+}
+.logo{
+  height: 60px;
+  margin-left:30%;
+  margin-top: 5px;
+  border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+
+
+}
+.stopwatch{
+  border: 1px solid white;
+  margin-top: 12%;
+  padding: 13%;
+  color: white;
+  border-radius: 50%;
+}
+.stopwatch button{
+  margin-top: 5%;
+  background-color: rgb(212, 181, 181);
+  color: black;
+}
