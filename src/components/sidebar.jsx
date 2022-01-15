@@ -7,7 +7,6 @@ import  {RiHomeLine, RiFileCopyLine } from "react-icons/ri";
 import  { FaWallet } from "react-icons/fa";
 import  { AiOutlinePieChart } from "react-icons/ai";
 import Stopwatch from './timer';
-import Toggle from './toggle';
  
 function Sidebar ()  {
     return (
@@ -16,7 +15,6 @@ function Sidebar ()  {
                   <Avatar src={AvatarImage} />
                   <Name>Jagdeep singh</Name>
                   {/* < Badge content="Admin 1" /> */}
-                  <Toggle/>
                   < Stopwatch/>
               </ProfileContainer>
               <LinksContainer>
